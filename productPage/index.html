@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>The Coffee Shop</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+  </head>
+  <body>
+    <nav class="navbar has-shadow is-white">
+        <!--LOGO BRAND-->
+        <div class="navbar-brand">
+            <a class = "navbar-item">
+                <img src="./images/brand-logo.png" alt= "brand-logo" style = "max-height:70px" class="py-2 px-2">
+            </a>
+            <a class="navbar-burger" id = "burger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </a>
+        </div>
+        <div class="navbar-menu" id = "nav-links">
+            <div class="navbar-end">
+                <a class="navbar-item">My Account</a>
+                <a class="navbar-item">Shopping Cart</a>
+            </div>
+        </div>
+    </nav>
+
+    <!--BREADCRUMBS-->
+
+    <div class="section pt-4 pb-0">
+            <nav class="breadcrumb is-white has-succeeds-separator" aria-label="breadcrumbs">
+                <ul class="container">
+                    <li><a class="has-text-grey">The Coffee Shop</a></li>
+                    <li><a class="has-text-grey">Shop</a></li>
+                    <li class="is-active"><a>Product Name</a></li>
+                </ul>
+            </nav>
+    </div>
+
+    <!--Product info-->
+    <section class="section">
+        <dic class="container">
+            <div class="columns is-vcentered">
+                <div class="column is-3">
+                    <h1 class="is-size-1 title">Hatti Kaapi</h1>
+                    <h2 class="is-size-2 subtitle">Filter Coffee</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente ipsam odit harum quia minus nulla!</p>
+                </div>
+                <div class="column is-6 has-text-centered">
+                    <img src="./images/p1.png" alt="product" class="px-6">
+                </div>
+                <div class="column is-3">
+                    <div class="is-size-4 mb-4">₹900.50</div>
+                    <p class="mb-4">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magnam, consequuntur?</p>
+                </div>
+            </div>
+        </dic>
+    </section>
+
+    <script src="./scripts/main.js"></script>
+  </body>
+</html>
